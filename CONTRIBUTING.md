@@ -87,10 +87,10 @@ Runs on main/develop branches and pull requests:
 - Ensures the application builds successfully on all supported platforms
 
 ### Before Submitting a PR
-1. Ensure your code passes TypeScript type checking: `npm run build` or `bun run build`
+1. Ensure your code passes TypeScript type checking: `bun run build` (or `npm run build`)
 2. Ensure Rust code is formatted: `cd src-tauri && cargo fmt`
 3. Ensure Rust code passes linting: `cd src-tauri && cargo clippy`
-4. Verify local build works: `bun run check` or `npm run check`
+4. Verify local build works: `bun run check` (or `npm run check`)
 
 All CI checks must pass before a pull request can be merged.
 

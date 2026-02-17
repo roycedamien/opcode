@@ -56,12 +56,10 @@ jobs:
       - name: Rust format check
         working-directory: src-tauri
         run: cargo fmt -- --check
-        continue-on-error: true
 
       - name: Rust clippy
         working-directory: src-tauri
         run: cargo clippy --all-targets --all-features -- -D warnings
-        continue-on-error: true
 
       - name: Rust check
         working-directory: src-tauri
