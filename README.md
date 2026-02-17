@@ -20,6 +20,7 @@
   </p>
   
   <p>
+    <a href="https://github.com/roycedamien/opcode/actions/workflows/ci.yml"><img src="https://github.com/roycedamien/opcode/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
     <a href="https://github.com/roycedamien/opcode/actions/workflows/build-test.yml"><img src="https://github.com/roycedamien/opcode/actions/workflows/build-test.yml/badge.svg" alt="Build Test"></a>
     <a href="https://github.com/roycedamien/opcode/actions/workflows/pr-check.yml"><img src="https://github.com/roycedamien/opcode/actions/workflows/pr-check.yml/badge.svg" alt="PR Checks"></a>
     <a href="https://github.com/roycedamien/opcode/actions/workflows/build-linux.yml"><img src="https://github.com/roycedamien/opcode/actions/workflows/build-linux.yml/badge.svg" alt="Build Linux"></a>
