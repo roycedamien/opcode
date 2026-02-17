@@ -18,6 +18,13 @@
     <a href="#development"><img src="https://img.shields.io/badge/Develop-🛠️-orange?style=for-the-badge" alt="Development"></a>
     <a href="https://discord.com/invite/KYwhHVzUsY"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
   </p>
+  
+  <p>
+    <a href="https://github.com/roycedamien/opcode/actions/workflows/build-test.yml"><img src="https://github.com/roycedamien/opcode/actions/workflows/build-test.yml/badge.svg" alt="Build Test"></a>
+    <a href="https://github.com/roycedamien/opcode/actions/workflows/pr-check.yml"><img src="https://github.com/roycedamien/opcode/actions/workflows/pr-check.yml/badge.svg" alt="PR Checks"></a>
+    <a href="https://github.com/roycedamien/opcode/actions/workflows/build-linux.yml"><img src="https://github.com/roycedamien/opcode/actions/workflows/build-linux.yml/badge.svg" alt="Build Linux"></a>
+    <a href="https://github.com/roycedamien/opcode/actions/workflows/build-macos.yml"><img src="https://github.com/roycedamien/opcode/actions/workflows/build-macos.yml/badge.svg" alt="Build macOS"></a>
+  </p>
 </div>
 
 ![457013521-6133a738-d0cb-4d3e-8746-c6768c82672c](https://github.com/user-attachments/assets/a028de9e-d881-44d8-bae5-7326ab3558b9)
