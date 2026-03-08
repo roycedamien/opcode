@@ -64,4 +64,34 @@ When submitting a pull request, please follow these guidelines:
 - Run `cargo test` for Rust code
 - Test the application manually before submitting
 
+## Continuous Integration
+
+opcode uses GitHub Actions for automated testing and builds. The following workflows run automatically:
+
+### CI Workflow
+Runs on all branches and pull requests:
+- TypeScript type checking and build
+- Rust formatting check (`cargo fmt -- --check`)
+- Rust linting (`cargo clippy`)
+- Rust code validation (`cargo check`)
+
+### PR Checks
+Runs on pull requests:
+- Full type checking with `bun run check`
+- Validates TypeScript compilation
+- Validates Rust code
+
+### Build Test
+Runs on main/develop branches and pull requests:
+- Multi-platform build verification (Linux, Windows, macOS)
+- Ensures the application builds successfully on all supported platforms
+
+### Before Submitting a PR
+1. Ensure your code passes TypeScript type checking: `bun run build` (or `npm run build`)
+2. Ensure Rust code is formatted: `cd src-tauri && cargo fmt`
+3. Ensure Rust code passes linting: `cd src-tauri && cargo clippy`
+4. Verify local build works: `bun run check` (or `npm run check`)
+
+All CI checks must pass before a pull request can be merged.
+
 Please adhere to the coding conventions, maintain clear documentation, and provide thorough testing for your contributions. 
